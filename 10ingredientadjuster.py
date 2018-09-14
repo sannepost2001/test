@@ -1,0 +1,5 @@
+cookies= float(input("How many cookies would you like to make"))
+sugar = round(1.5/48*cookies,3)
+butter = round(1/48*cookies,3)
+flour = round(2.75/48*cookies, 3)
+print("For ",cookies, " cookies you will need ", sugar, " cups sugar, ", butter,"cups butter and ", flour," cups flour")
